@@ -13,7 +13,7 @@ const TodoList = () => {
             className="btn btn-danger"
             onClick={() => deleteTodo(todo.id)}
           >
-            Delete
+            Done
           </button>
         </li>
       ))}

@@ -22,19 +22,19 @@ const App = () => {
     <div className="container my-4 py-6  bg-dark rounded ">
       <div className="row">
         <div className="col-md-6 offset-md-3">
-          <h1 className="text-center mb-4 text-white">Todo List</h1>
+          <h1 className="text-center mb-4 text-white">List Of Tasks</h1>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <input
                 type="text"
                 className="form-control"
-                placeholder="Enter a new todo"
+                placeholder="Enter a new task"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
               />
             </div>
             <button className="btn btn-primary btn-block mt-1 mb-4">
-              Add Todo
+              Add New Task
             </button>
           </form>
           <TodoList />
